@@ -109,7 +109,7 @@ lrn_cart$train(bank_train_task)
 pred_cart <- lrn_cart$predict(bank_test_task)
 pred_cart$score(msr("classif.acc"))
 
-We took one result from cv[1]:
+# We took one result from cv[1]:
 
 trees <- res1$resample_result(4)
 
